@@ -235,7 +235,7 @@
 				mi2KYwlOOX3WDaavVOPbBQRA2Ktgp87Kv<XxIdM4P76DSK QMRrXSqOOqMmOmnNoNrtxoMpPOnooOnRRpvvWUWVTVwsOn 
 				mnmUUnpttrorsmmmmmUUnpttrorsmmmmmUU3vYXdbUUn]]>
 					</license>
-					<targetPercentage>10%</targetPercentage>
+					<targetPercentage>50%</targetPercentage>
 					<jdk>1.7</jdk>
 					<generatePdf>true</generatePdf>
 					<generateXml>true</generateXml>
@@ -362,6 +362,7 @@
 							</goals>
 							<configuration>
 								<excludes>
+								<exclude>**/EmployeeDeleteSeleniumTest.java</exclude>
 								<exclude>**/EmployeeControllerTest.java</exclude>
 								<exclude>**/com.sample.mvc.service/</exclude>
 								<exclude>**/com.sample.mvc.dao/</exclude>

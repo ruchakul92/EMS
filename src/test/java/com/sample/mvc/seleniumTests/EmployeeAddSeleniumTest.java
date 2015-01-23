@@ -24,7 +24,7 @@ public class EmployeeAddSeleniumTest {
 	public void testCheck() throws Exception {
 		driver.get(baseUrl + "");
 	    driver.findElement(By.name("code")).clear();
-	    driver.findElement(By.name("code")).sendKeys("282");
+	    driver.findElement(By.name("code")).sendKeys("284");
 	    driver.findElement(By.name("name")).clear();
 	    driver.findElement(By.name("name")).sendKeys("Rahul");
 	    driver.findElement(By.name("city")).clear();
