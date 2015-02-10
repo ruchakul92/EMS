@@ -18,7 +18,7 @@ public class EmployeeEditSeleniumTest {
   @Before
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
-    baseUrl = "http://172.27.59.96:8080/EMS_Hibernate1/list";
+    baseUrl = "http://172.27.59.74:8080/EMS_Hibernate1/list";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
