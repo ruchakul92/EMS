@@ -14,7 +14,6 @@
 			<url>http://repo.springsource.org/libs-milestone</url>
 		</repository>
 	</repositories>
-
 	<dependencies>
 		<!-- Selenium -->
 
