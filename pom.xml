@@ -352,7 +352,7 @@
       <serverId>nexus</serverId>
       <nexusUrl>http://localhost:8090/nexus/</nexusUrl>
       <!-- <skipStaging>true</skipStaging> -->
-	  <stagingProfileId>70c49578568e</stagingProfileId>
+	  <stagingProfileId>2867047529f75</stagingProfileId>
    </configuration>
 </plugin>
 
