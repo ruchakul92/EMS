@@ -31,12 +31,12 @@
 </repositories> -->
 
 
-<distributionManagement>
+<!-- <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
       <url>http://localhost:8090/nexus/content/repositories/releases</url>
    </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 	
 	<dependencies> 
 		<!-- Selenium -->
@@ -290,7 +290,7 @@
 				</executions>
 			</plugin>
 
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
@@ -325,8 +325,8 @@
 
 				</executions>
 			</plugin>
- -->
- <plugin>
+
+ <!-- <plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-deploy-plugin</artifactId>
    <version>2.5</version>
@@ -350,11 +350,11 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8090/nexus/</nexusUrl>
+      <nexusUrl>http://localhost:8090/nexus/</nexusUrl>   -->
       <!-- <skipStaging>true</skipStaging> -->
-	  <stagingProfileId>2867047529f75</stagingProfileId>
+<!--	  <stagingProfileId>2867047529f75</stagingProfileId>
    </configuration>
-</plugin>
+</plugin> -->
 
 		</plugins>
 		
