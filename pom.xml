@@ -34,8 +34,12 @@
 <!-- <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://localhost:8090/nexus/content/repositories/releases</url>
+      <url>http://localhost:8090/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
+   <repository>
+      <id>nexus</id>
+      <url>http://localhost:8090/nexus/content/repositories/releases</url>
+   </repository>
 </distributionManagement> -->
 	
 	<dependencies> 
