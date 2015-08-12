@@ -44,7 +44,7 @@
 	
 	<dependencies> 
 		<!-- Selenium -->
-
+	<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
