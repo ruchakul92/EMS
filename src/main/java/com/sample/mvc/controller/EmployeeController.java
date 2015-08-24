@@ -49,6 +49,7 @@ public class EmployeeController {
 			@ModelAttribute EmployeeCommand employeeCommand) {
 		employeeService.updateEmployee(employeeCommand);
 		return "redirect:/list";
+		//hi 
 	}
 	
     @RequestMapping(value = "/delete/{employeeId}")
