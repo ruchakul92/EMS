@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1430292746221" clover="3.1.12">
-   <project timestamp="1430292738114" name="Employee Management System 5.0-SNAPSHOT">
+<coverage generated="1434028200850" clover="3.1.12">
+   <project timestamp="1434028192154" name="Employee Management System 7.0-RELEASE">
       <metrics conditionals="2" methods="22" classes="6" files="6" packages="4" coveredstatements="11" complexity="23" loc="222" ncloc="165" coveredmethods="8" coveredconditionals="0" statements="32" coveredelements="19" elements="56"/>
       <package name="com.sample.mvc.service">
          <metrics classes="2" methods="5" conditionals="0" files="2" ncloc="42" coveredstatements="0" coveredmethods="0" complexity="5" coveredconditionals="0" statements="5" loc="61" coveredelements="0" elements="10"/>
@@ -106,21 +106,21 @@
          </file>
       </package>
    </project>
-   <testproject timestamp="1430292738114" name="Employee Management System 5.0-SNAPSHOT">
+   <testproject timestamp="1434028192154" name="Employee Management System 7.0-RELEASE">
       <metrics conditionals="0" methods="13" classes="5" files="5" packages="3" coveredstatements="31" complexity="13" loc="240" ncloc="167" coveredmethods="9" coveredconditionals="0" statements="42" coveredelements="40" elements="55"/>
       <package name="com.sample.mvc.controllerTest">
          <metrics classes="1" methods="3" conditionals="0" files="1" ncloc="56" coveredstatements="8" coveredmethods="3" complexity="3" coveredconditionals="0" statements="8" loc="84" coveredelements="11" elements="11"/>
          <file name="EmployeeControllerTest.java" path="C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\controllerTest\EmployeeControllerTest.java">
             <metrics classes="1" methods="3" conditionals="0" ncloc="56" coveredstatements="8" coveredmethods="3" complexity="3" coveredconditionals="0" statements="8" loc="84" coveredelements="11" elements="11"/>
             <class name="EmployeeControllerTest">
-               <metrics conditionals="0" methods="3" coveredstatements="8" complexity="3" testpasses="2" testruns="2" coveredmethods="3" coveredconditionals="0" statements="8" testfailures="0" coveredelements="11" testduration="0.165" elements="11"/>
+               <metrics conditionals="0" methods="3" coveredstatements="8" complexity="3" testpasses="2" testruns="2" coveredmethods="3" coveredconditionals="0" statements="8" testfailures="0" coveredelements="11" testduration="0.17999999" elements="11"/>
             </class>
             <line num="42" count="2" visibility="public" complexity="1" type="method" signature="setup() : void"/>
             <line num="46" count="2" type="stmt"/>
             <line num="49" count="2" type="stmt"/>
-            <line num="52" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.03" signature="testAddEmployee() : void"/>
+            <line num="52" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.02" signature="testAddEmployee() : void"/>
             <line num="56" count="1" type="stmt"/>
-            <line num="65" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.135" signature="findById() : void"/>
+            <line num="65" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.16" signature="findById() : void"/>
             <line num="69" count="1" type="stmt"/>
             <line num="70" count="1" type="stmt"/>
             <line num="71" count="1" type="stmt"/>
@@ -133,13 +133,13 @@
          <file name="EmployeeAddSeleniumTest.java" path="C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\seleniumTests\EmployeeAddSeleniumTest.java">
             <metrics classes="1" methods="3" conditionals="0" ncloc="33" coveredstatements="12" coveredmethods="3" complexity="3" coveredconditionals="0" statements="12" loc="42" coveredelements="15" elements="15"/>
             <class name="EmployeeAddSeleniumTest">
-               <metrics conditionals="0" methods="3" coveredstatements="12" complexity="3" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="12" testfailures="0" coveredelements="15" testduration="1.119" elements="15"/>
+               <metrics conditionals="0" methods="3" coveredstatements="12" complexity="3" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="12" testfailures="0" coveredelements="15" testduration="0.975" elements="15"/>
             </class>
             <line num="16" count="1" visibility="public" complexity="1" type="method" signature="setUp() : void"/>
             <line num="18" count="1" type="stmt"/>
             <line num="19" count="1" type="stmt"/>
             <line num="20" count="1" type="stmt"/>
-            <line num="23" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="1.119" signature="testCheck() : void"/>
+            <line num="23" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.975" signature="testCheck() : void"/>
             <line num="25" count="1" type="stmt"/>
             <line num="26" count="1" type="stmt"/>
             <line num="27" count="1" type="stmt"/>
@@ -169,13 +169,13 @@
          <file name="EmployeeEditSeleniumTest.java" path="C:\Workspace\EmployeeManagementSystem\src\test\java\com\sample\mvc\seleniumTests\EmployeeEditSeleniumTest.java">
             <metrics classes="1" methods="3" conditionals="0" ncloc="32" coveredstatements="11" coveredmethods="3" complexity="3" coveredconditionals="0" statements="11" loc="47" coveredelements="14" elements="14"/>
             <class name="EmployeeEditSeleniumTest">
-               <metrics conditionals="0" methods="3" coveredstatements="11" complexity="3" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="11" testfailures="0" coveredelements="14" testduration="0.915" elements="14"/>
+               <metrics conditionals="0" methods="3" coveredstatements="11" complexity="3" testpasses="1" testruns="1" coveredmethods="3" coveredconditionals="0" statements="11" testfailures="0" coveredelements="14" testduration="0.96" elements="14"/>
             </class>
             <line num="18" count="1" visibility="public" complexity="1" type="method" signature="setUp() : void"/>
             <line num="20" count="1" type="stmt"/>
             <line num="21" count="1" type="stmt"/>
             <line num="22" count="1" type="stmt"/>
-            <line num="25" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.915" signature="testEdit() : void"/>
+            <line num="25" testsuccess="true" count="1" visibility="public" complexity="1" type="method" testduration="0.96" signature="testEdit() : void"/>
             <line num="27" count="1" type="stmt"/>
             <line num="29" count="1" type="stmt"/>
             <line num="30" count="1" type="stmt"/>
