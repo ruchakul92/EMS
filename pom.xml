@@ -300,7 +300,7 @@
 				<version>2.1</version>
 				<configuration>
 					<server>mytomcat</server>
-					<url>http://172.27.59.74:8080/manager/text</url>
+					<url>http://172.27.59.140:7080/manager/text</url>
 					<username>tomcat</username>
 					<password>s3cret</password>
 					<path>/EMS_Hibernate1</path>
